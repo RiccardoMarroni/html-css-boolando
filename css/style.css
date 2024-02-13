@@ -20,8 +20,10 @@ body{
     color: white;
 }
 /* footer */
-footer{
-    width: 100%;
+.footer{
+    width:100%;
+    background-color: black;
+    
 }
 .footer-layout{
     background-color: black;
@@ -76,7 +78,41 @@ footer{
 img{
     display: block;
     width: 100%;
-}.ml{
+}
+.heart{
+background-color: white;
+color: black;
+padding: 5%;
+text-align: center;
+position: absolute;
+top: 0px;
+right:0px;
+}
+
+.discount{
+    background-color: red;
+    color:white;
+    padding: 5px;
+    text-align:right;
+    position:absolute;
+    bottom:30px;
+    left:0px;
+}
+.sostenibility{
+background-color: green;
+color: white;
+padding: 5px;
+text-align: center;
+position: absolute;
+bottom: 30px;
+left: 50px;
+}
+.six{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.ml{
     margin-left: 10px;
 }
 
