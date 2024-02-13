@@ -20,17 +20,10 @@ body{
     color: white;
 }
 /* footer */
-.footer{
+.footer-y{
     width:100%;
     background-color: black;
     
-}
-.footer-layout{
-    background-color: black;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px;
-    border-bottom: 1px solid black;
 }
 /* utility */
 .container{
@@ -79,6 +72,16 @@ body{
 img{
     display: block;
     width: 100%;
+}
+
+.secondary-image{
+    display: none;
+}
+.card:hover .main-image{
+    display:none;
+}
+.card:hover .secondary-image{
+    display:block;
 }
 .heart{
 background-color: white;
